@@ -1,0 +1,7 @@
+import React from "react";
+import { Mail, MapPin, Send } from "lucide-react";
+export default function Contact(){
+ return <main className="inner-page"><section className="page-hero"><div className="container"><span className="eyebrow">CONTACT</span><h1>Let's build <em>together.</em></h1><p>For registrations, partnerships, hosting, volunteering or general questions, use the form below.</p></div></section>
+ <section className="section"><div className="container contact-grid"><div><span className="eyebrow">GET IN TOUCH</span><h2>Start a conversation.</h2><p className="lead">Tell us what you are building, supporting or looking to learn about.</p><div className="contact-box"><Mail/><div><b>Email</b><span>david.robotics@gmail.com</span></div></div><div className="contact-box"><MapPin/><div><b>Location</b><span>India</span></div></div></div>
+ <form className="contact-form" onSubmit={e=>{e.preventDefault();alert("Thanks! Connect this form to your preferred email service before launch.")}}><label>Name<input required placeholder="Your name"/></label><label>Email<input required type="email" placeholder="you@example.com"/></label><label>Subject<select><option>Team / Registration</option><option>Event / Hosting</option><option>Partnership</option><option>General question</option></select></label><label>Message<textarea required rows="6" placeholder="Tell us how we can help..."></textarea></label><button className="btn primary" type="submit">Send message <Send size={17}/></button></form></div></section></main>
+}
