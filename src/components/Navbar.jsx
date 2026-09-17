@@ -102,16 +102,16 @@ export default function Navbar() {
 
               {regionDrop && (
                 <div className="dropdown-menu">
-                 <a href="https://robocup-ten.vercel.app/" onClick={close}>
+                 <a href="https://www.robocupnorth.info/" onClick={close}>
                  North
               </a>
 
-                  <a href="https://robocup-ten.vercel.app/" onClick={close}>
+                  <a href="https://www.robocupnorth.info/" onClick={close}>
                     South
                   </a>
             
 
-                  <a href="https://robocup-ten.vercel.app/" onClick={close}>
+                  <a href="https://www.robocupnorth.info/" onClick={close}>
                     National
                   </a>
                 </div>
