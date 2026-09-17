@@ -4,34 +4,56 @@ import { ArrowRight, Trophy, Shield, Sparkles } from "lucide-react";
 
 export default function Competitions() {
   const competitions = [
-    {
-      title: "RoboCup Soccer",
-      category: "SOCCER",
-      description:
-        "Build autonomous robots that compete on the football field using perception, control, teamwork and artificial intelligence.",
-      image: "/images/soccer.jpg",
-      icon: Trophy,
-      tag: "AUTONOMOUS ROBOTICS",
-    },
-    {
-      title: "RoboCup Rescue",
-      category: "RESCUE",
-      description:
-        "Design robots capable of navigating challenging environments and solving rescue-based missions.",
-      image: "/images/rescue.jpg",
-      icon: Shield,
-      tag: "SEARCH & RESCUE",
-    },
-    {
-      title: "RoboCup OnStage",
-      category: "ONSTAGE",
-      description:
-        "Combine robotics, creativity and storytelling to create an interactive autonomous performance.",
-      image: "/images/onstage.jpg",
-      icon: Sparkles,
-      tag: "CREATIVE ROBOTICS",
-    },
-  ];
+  {
+    title: "RoboCup Soccer",
+    category: "SOCCER",
+    description:
+      "Build autonomous robots that compete on the football field using perception, control, teamwork and artificial intelligence.",
+    image: "/images/soccer.jpg",
+    icon: Trophy,
+    tag: "AUTONOMOUS ROBOTICS",
+  },
+
+  {
+    title: "RoboCup Rescue",
+    category: "RESCUE LINE",
+    description:
+      "Design autonomous robots capable of navigating challenging environments and completing real-world rescue missions.",
+    image: "/images/RESCUELINE.png",
+    icon: Shield,
+    tag: "SEARCH & RESCUE",
+  },
+
+  {
+    title: "RoboCup Rescue Maze",
+    category: "RESCUE MAZE",
+    description:
+      "Program robots to navigate maze environments, detect obstacles and complete challenging rescue missions autonomously.",
+    image: "/images/maze.png",
+    icon: Shield,
+    tag: "MAZE ROBOTICS",
+  },
+
+  {
+    title: "RoboCup OnStage",
+    category: "ONSTAGE",
+    description:
+      "Combine robotics, creativity and storytelling to create an interactive autonomous performance.",
+    image: "/images/onstage.jpg",
+    icon: Sparkles,
+    tag: "CREATIVE ROBOTICS",
+  },
+
+  {
+    title: "RoboCup Simulation",
+    category: "SIMULATION",
+    description:
+      "Develop intelligent robotic agents in a simulated environment using programming, artificial intelligence and autonomous decision making.",
+    image: "/images/simulation.png",
+    icon: Trophy,
+    tag: "ROBOT SIMULATION",
+  },
+];
 
   return (
     <main className="inner-page">

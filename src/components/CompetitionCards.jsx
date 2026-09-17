@@ -5,8 +5,10 @@ import { Link } from "react-router-dom";
 
 const cards = [
   {id:"soccer", num:"01", icon:Bot, title:"Soccer", tag:"AUTONOMOUS FOOTBALL", text:"Build autonomous robots that sense, navigate, cooperate and compete on the field.", image:"soccer.jpg"},
-  {id:"rescue", num:"02", icon:ShieldAlert, title:"Rescue", tag:"SEARCH & RESCUE", text:"Engineer robots for challenging disaster scenarios, navigation, obstacles and victim rescue.", image:"rescue.jpg"},
-  {id:"onstage", num:"03", icon:Sparkles, title:"OnStage", tag:"ROBOTICS + CREATIVITY", text:"Create an autonomous robotic performance that combines engineering, storytelling and imagination.", image:"onstage.jpg"}
+  {id:"rescue", num:"02", icon:ShieldAlert, title:"Rescue line", tag:"SEARCH & RESCUE", text:"Engineer robots for challenging disaster scenarios, navigation, obstacles and victim rescue.", image:"RESCUELINE.png"},
+  {id:"maze", num:"03", icon:Sparkles, title:"Rescue Maze", tag:"RESCUE + MAZE", text:"Navigate the maze, overcome obstacles, and use intelligent autonomy to find and rescue those in need.", image:"maze.png"},
+  {id:"onstage", num:"04", icon:Sparkles, title:"OnStage", tag:"ROBOTICS + CREATIVITY", text:"Create an autonomous robotic performance that combines engineering, storytelling and imagination.", image:"onstage.jpg"},
+  {id:"simulation", num:"05", icon:Sparkles, title:"Simulation", tag:"SIMULATION + ROBOTICS", text:"Experience intelligent robots in action as strategy, precision, and autonomous decision-making come together in a virtual challenge.", image:"simulation.png"}
 ];
 
 export default function CompetitionCards() {
