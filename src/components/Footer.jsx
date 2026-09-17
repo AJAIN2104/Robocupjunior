@@ -34,11 +34,33 @@ export default function Footer() {
           <a href="#">Downloads</a>
         </div>
         <div>
-          <h4>Contact</h4>
-          <p className="contact-line"><Mail size={16}/> david.robotics@gmail.com</p>
-          <p className="contact-line"><MapPin size={16}/> India</p>
-          <Link className="footer-contact" to="/contact">Get in touch <ArrowUpRight size={15}/></Link>
-        </div>
+  <h4>Contact</h4>
+
+  <p className="contact-line">
+    <Mail size={16} />
+    david.robotics@gmail.com
+
+  </p>
+
+  <p className="contact-line">
+    <span>👤</span>
+    Mr David Prakash
+  </p>
+
+  <p className="contact-line">
+    <span>📞</span>
+    +91 80560 29929
+  </p>
+
+  <p className="contact-line">
+    <MapPin size={16} />
+    India
+  </p>
+
+  <Link className="footer-contact" to="/contact">
+    Get in touch <ArrowUpRight size={15} />
+  </Link>
+</div>
       </div>
       <div className="container footer-bottom">
         <span>© 2026 RoboCup India. All rights reserved.</span>
