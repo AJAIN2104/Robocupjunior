@@ -71,8 +71,16 @@ export default function Navbar() {
                     Soccer
                   </a>
 
-                  <a href="/#rescue" onClick={close}>
-                    Rescue
+                  <a href="/#line" onClick={close}>
+                    Rescue Line
+                  </a>
+
+                  <a href="/#maze" onClick={close}>
+                    Rescue Maze
+                  </a>
+                  
+                  <a href="/#simulation" onClick={close}>
+                    Simulation
                   </a>
 
                   <a href="/#onstage" onClick={close}>
