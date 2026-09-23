@@ -106,16 +106,16 @@ export default function Navbar() {
                  North
               </a>
 
-                  <a href="/comingsoon" onClick={close}>
+                  <a href="/ComingSoon" onClick={close}>
                     South
                   </a>
-                   <a href="/comingsoon" onClick={close}>
+                   <a href="/ComingSoon" onClick={close}>
                     East
                   </a>
-                   <a href="/comingsoon" onClick={close}>
+                   <a href="/ComingSoon" onClick={close}>
                     West
                   </a>
-                  <a href="/comingsoon" onClick={close}>
+                  <a href="/ComingSoon" onClick={close}>
                     National
                   </a>
                 </div>
