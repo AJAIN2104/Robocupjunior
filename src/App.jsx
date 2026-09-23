@@ -10,7 +10,7 @@ import Teams from "./pages/Teams";
 import Results from "./pages/Results";
 import News from "./pages/News";
 import Contact from "./pages/Contact";
-
+import comingsoon from "./pages/comingsoon";
 export default function App() {
   return (
     <div className="app">
@@ -24,6 +24,7 @@ export default function App() {
         <Route path="/results" element={<Results />} />
         <Route path="/news" element={<News />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/comingsoon" element={<comingsoon />} />
       </Routes>
       <Footer />
     </div>

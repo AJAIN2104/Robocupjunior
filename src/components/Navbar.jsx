@@ -106,12 +106,16 @@ export default function Navbar() {
                  North
               </a>
 
-                  <a href="https://www.robocupnorth.info/" onClick={close}>
+                  <a href="/comingsoon" onClick={close}>
                     South
                   </a>
-            
-
-                  <a href="https://www.robocupnorth.info/" onClick={close}>
+                   <a href="/comingsoon" onClick={close}>
+                    East
+                  </a>
+                   <a href="/comingsoon" onClick={close}>
+                    West
+                  </a>
+                  <a href="/comingsoon" onClick={close}>
                     National
                   </a>
                 </div>
