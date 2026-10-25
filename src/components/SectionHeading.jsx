@@ -7,4 +7,4 @@ export default function SectionHeading({eyebrow, title, text, center=false}) {
       {text && <p>{text}</p>}
     </div>
   );
-}
+} 
