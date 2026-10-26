@@ -78,7 +78,7 @@ const resultsData = {
         { team: "Fantom Strikers", medal: "🏅" },
       ],
 
-     Awards: [
+     Awards: [/*
   // Maze Awards
   {
     team: "MADS",
@@ -128,7 +128,7 @@ const resultsData = {
     team: "GD CHAMP",
     position: "Best Engineer — Soccer",
     medal: "🏆",
-  },
+  },*/
 ],
     },
   },
