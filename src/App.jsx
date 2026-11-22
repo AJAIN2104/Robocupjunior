@@ -11,6 +11,7 @@ import Results from "./pages/Results";
 import News from "./pages/News";
 import Contact from "./pages/Contact";
 import ComingSoon from "./pages/comingsoon";
+import Hyderabad from "./pages/hyderabad";
 export default function App() {
   return (
     <div className="app">
@@ -25,6 +26,7 @@ export default function App() {
         <Route path="/news" element={<News />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/ComingSoon" element={<ComingSoon />} />
+          <Route path="/Hyderabad" element={<Hyderabad />} />
       </Routes>
       <Footer />
     </div>

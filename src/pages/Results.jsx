@@ -63,6 +63,7 @@ const resultsData = {
         { team: "Cyber Kickers", medal: "🏅" },
         { team: "Code Strikers", medal: "🏅" },
         { team: "Team Soccer RVA", medal: "🏅" },
+        
         { team: "ROBOWARRIOR", medal: "🏅" },
         { team: "team AMUD Soccer", medal: "🏅" },
         { team: "Goated Goats", medal: "🏅" },

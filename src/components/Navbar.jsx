@@ -105,7 +105,10 @@ export default function Navbar() {
                  <a href="https://www.robocupnorth.info/" onClick={close}>
                  North
               </a>
-
+              
+                  <a href="/Hyderabad" onClick={close}>
+                    Hyderabad </a>
+        
                   <a href="/ComingSoon" onClick={close}>
                     South
                   </a>
