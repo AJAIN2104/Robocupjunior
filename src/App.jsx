@@ -10,7 +10,7 @@ import Teams from "./pages/Teams";
 import Results from "./pages/Results";
 import News from "./pages/News";
 import Contact from "./pages/Contact";
-import ComingSoon from "./pages/comingsoon";
+import ComingSoon from "./pages/ComingSoon";
 import Hyderabad from "./pages/hyderabad";
 export default function App() {
   return (
